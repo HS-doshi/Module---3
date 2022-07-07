@@ -1,0 +1,104 @@
+.d1
+{
+	border: 3px solid black;
+	height: 90vh;
+	position: relative;
+	float: left;
+}
+#h
+{
+	background-color: gray;
+	padding-top: 10px;
+}
+#pun1
+{
+	margin-top: 10px;
+	font-size: 15pt;
+	text-align: center;
+}
+b
+{
+	padding-left: 15px;
+}
+#pun1
+{
+	background-color: gray;
+	height: 10px;
+}
+#b
+{
+	text-align: center;
+}
+#hr
+{
+	border: 2px solid black;
+}
+#h4
+{
+	text-align: center;
+}
+#p
+{
+	font-color: gray;
+	font-size: 15pt;
+	height: 200px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#para
+{
+	background-color: gray;
+}
+#nav-list 
+{
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+#nav-list a 
+{
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover 
+{
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#text
+{
+	text-align: center;
+}
+.p1
+{
+	padding-top: 2px;
+	padding: 10px;
+	font-size: 18px;
+	background-color: gray;
+}
+#h1
+{
+	text-align: center;
+}
+#s1
+{
+	border: 2px solid black;
+}
+@media(max-width:  479px)
+{
+
+  		<div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" >
+                        
+                  <span class="glyphicon glyphicon-home"></span><br class="visible-xs"> Punjabi</a>
+                  <hr>
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="visible-xs"> Italian</a>
+              	  <hr>
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="visible-xs"> Chinese</a>
+                  <hr>
+              </ul>
+        </div>
+              
+}
